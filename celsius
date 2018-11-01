@@ -1,0 +1,13 @@
+def fahrenheit(temp):
+    return temp*1.8+32
+
+def celsius(temp):
+    return (temp-32)/1.8
+
+datos = [38,40,56,25,18]
+
+map(fahrenheit,datos)
+
+list(map(fahrenheit,datos))
+
+nuevos_datos = map (fahrenheit,datos)
